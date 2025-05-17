@@ -5,11 +5,11 @@
 
   function Register() {
     const [formData, setFormData] = useState({
-      username: '',
-      email: '',
-      password: '',
-      privacy: 'public'
-    });
+  username: '',
+  email: '',
+  password: '',
+  privacy: 'public'
+});
     const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
