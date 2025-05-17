@@ -1,4 +1,4 @@
-
+```json
 {
   "name": "echojar-frontend",
   "version": "0.1.0",
@@ -23,8 +23,8 @@
     "preinstall": "npx npm-force-resolutions"
   },
   "resolutions": {
-    "minimatch": "^9.0.3",
-    "postcss": "^8.4.31"
+    "minimatch": "9.0.5",
+    "postcss": "8.4.47"
   },
   "eslintConfig": {
     "extends": [
@@ -45,4 +45,4 @@
     ]
   }
 }
-
+```
